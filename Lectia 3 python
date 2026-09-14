@@ -1,0 +1,67 @@
+# Structura fisierului
+# Frai Andrei, clasa X-C
+# Lectia 3 - Operatori in Python
+
+# 1. Calculati aria si perimetrul unui dreptunghi pentru l = 8, L = 13
+l = 8
+L = 13
+aria = l * L
+perimetru = 2 * (l + L)
+
+print("Ex 1:")
+print("Aria =", aria)
+print("Perimetrul =", perimetru)
+print()
+
+# 2. Pentru 95 de minute, afisati cate ore intregi si cate minute raman
+minute_totale = 95
+ore = minute_totale // 60
+minute_ramase = minute_totale % 60
+
+print("Ex 2:")
+print(ore, "ore si", minute_ramase, "minute")
+print()
+
+# 3. Pentru un numar n, afisati True daca este par si False daca este impar
+n = 10
+este_par = (n % 2 == 0)
+
+print("Ex 3:")
+print("Este n par?", este_par)
+print()
+
+# 4. Scrieti 3 expresii in care parantezele schimba rezultatul
+exp1_fara = 2 + 3 * 4
+exp1_cu = (2 + 3) * 4
+
+exp2_fara = 10 - 5 - 2
+exp2_cu = 10 - (5 - 2)
+
+exp3_fara = 20 / 4 * 2
+exp3_cu = 20 / (4 * 2)
+
+print("Ex 4:")
+print("1)", exp1_fara, "vs", exp1_cu)
+print("2)", exp2_fara, "vs", exp2_cu)
+print("3)", exp3_fara, "vs", exp3_cu)
+print()
+
+# 5. Creati un exemplu propriu cu and, or sau not si explicati-l in comentariu
+# Explicatie: Conditia verifica daca un elev poate merge in excursie.
+# Trebuie sa aiba acordul parintilor SI (sa aiba nota peste 5 SAU sa fie scutit de taxa).
+acord_parinti = True
+nota_buna = True
+taxa_scutita = False
+
+poate_merge = acord_parinti and (nota_buna or taxa_scutita)
+
+print("Ex 5:")
+print("Poate merge in excursie?", poate_merge)
+print()
+
+# Provocare: transformati temperatura din °C in °F: F = C * 9 / 5 + 32
+C = 25
+F = C * 9 / 5 + 32
+
+print("Provocare:")
+print(C, "grade C =", F, "grade F")
