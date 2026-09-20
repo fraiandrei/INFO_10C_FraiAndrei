@@ -1,0 +1,7 @@
+n = int(input("n = "))
+
+print("Centimetri:", n * 100)
+print("Miligrame:", n * 1000000)
+print("Luni:", n * 12)
+print("Săptămâni:", (n * 365) / 7)
+print("Zile:", n * 365)
