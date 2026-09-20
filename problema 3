@@ -1,0 +1,10 @@
+
+a = float(input("Latura a = "))
+
+perimetru = 4 * a
+aria = 6 * a**2
+volum = a**3
+
+print("Perimetrul suprafeței:", perimetru)
+print("Aria tuturor suprafețelor:", aria)
+print("Volumul cubului:", volum)
