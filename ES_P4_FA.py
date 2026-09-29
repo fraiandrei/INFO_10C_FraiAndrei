@@ -1,3 +1,5 @@
-n=int('n=10')
-n=(3*n+6)
-n=(2*n+9)
+a=float(Input("Vaca a a produs:"))
+b=floatafloat(Input("Vaca b a produs:"))
+c=float(Input("Vaca c a produs:")
+d=float(Input("Vaca d a produs:"))
+print("Vacile au produs într-o săptămână:,",(a+b+c+d)*7, "litri”)
